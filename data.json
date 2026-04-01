@@ -1,0 +1,243 @@
+{
+  "active_project_id": "proj_pihla",
+  "projects": [
+    {
+      "id": "proj_pihla",
+      "name": "PIHLA",
+      "created_at": "2026-04-01T00:00:00",
+      "columns": {
+        "Backlog": [
+          {
+            "id": "card_p_b1",
+            "title": "Add HLA-HD, HLA*LA, xHLA tool support (v2.1.0)",
+            "description": "Integrate additional HLA typing tools into the Nextflow pipeline alongside OptiType, ArcasHLA, SpecHLA.",
+            "created_at": "2026-04-01T00:00:00",
+            "order": 0
+          },
+          {
+            "id": "card_p_b2",
+            "title": "Advanced consensus algorithms (v2.1.0)",
+            "description": "Implement beyond majority voting — weighted Bayesian consensus, tool-specific priors.",
+            "created_at": "2026-04-01T00:00:00",
+            "order": 1
+          },
+          {
+            "id": "card_p_b3",
+            "title": "Quality score integration (v2.1.0)",
+            "description": "Incorporate per-read and per-allele quality scores into consensus confidence calculation.",
+            "created_at": "2026-04-01T00:00:00",
+            "order": 2
+          },
+          {
+            "id": "card_p_b4",
+            "title": "Phasing information support (v2.1.0)",
+            "description": "Add haplotype phasing output for allele pairs across HLA genes.",
+            "created_at": "2026-04-01T00:00:00",
+            "order": 3
+          },
+          {
+            "id": "card_p_b5",
+            "title": "Interactive HTML benchmark reports (v2.1.0)",
+            "description": "Replace static SVG figures with interactive HTML dashboards for benchmarking results.",
+            "created_at": "2026-04-01T00:00:00",
+            "order": 4
+          },
+          {
+            "id": "card_p_b6",
+            "title": "Database storage support (v2.1.0)",
+            "description": "Export results to SQLite or PostgreSQL for large-cohort queries.",
+            "created_at": "2026-04-01T00:00:00",
+            "order": 5
+          },
+          {
+            "id": "card_p_b7",
+            "title": "Cloud deployment (AWS / Google Cloud) (v2.2.0)",
+            "description": "Nextflow config profiles for AWS Batch and Google Life Sciences.",
+            "created_at": "2026-04-01T00:00:00",
+            "order": 6
+          },
+          {
+            "id": "card_p_b8",
+            "title": "GUI interface (v2.2.0)",
+            "description": "Web-based job submission and result visualization UI.",
+            "created_at": "2026-04-01T00:00:00",
+            "order": 7
+          },
+          {
+            "id": "card_p_b9",
+            "title": "Real-time monitoring dashboard (v2.2.0)",
+            "description": "Live pipeline progress view integrated with Nextflow trace.",
+            "created_at": "2026-04-01T00:00:00",
+            "order": 8
+          },
+          {
+            "id": "card_p_b10",
+            "title": "Population frequency analysis (v2.2.0)",
+            "description": "Annotate HLA calls with population-level allele frequencies from IPD-IMGT/HLA.",
+            "created_at": "2026-04-01T00:00:00",
+            "order": 9
+          },
+          {
+            "id": "card_p_b11",
+            "title": "ML-based consensus calling (v3.0.0)",
+            "description": "Train a model on benchmark data to replace heuristic weighting with learned consensus.",
+            "created_at": "2026-04-01T00:00:00",
+            "order": 10
+          },
+          {
+            "id": "card_p_b12",
+            "title": "Novel allele detection (v3.0.0)",
+            "description": "Flag and report candidate novel HLA alleles not present in IMGT/HLA database.",
+            "created_at": "2026-04-01T00:00:00",
+            "order": 11
+          },
+          {
+            "id": "card_p_b13",
+            "title": "Clinical database integration (v3.0.0)",
+            "description": "Link HLA calls to transplant registries and pharmacogenomics databases.",
+            "created_at": "2026-04-01T00:00:00",
+            "order": 12
+          },
+          {
+            "id": "card_p_b14",
+            "title": "Multi-sample joint calling (v3.0.0)",
+            "description": "Population-level joint HLA inference across multiple samples.",
+            "created_at": "2026-04-01T00:00:00",
+            "order": 13
+          }
+        ],
+        "Running": [
+          {
+            "id": "card_p_r1",
+            "title": "Manuscript writing — PIHLA ensemble paper",
+            "description": "Draft v1 complete (abstract, methods). Results, discussion, and figures sections in progress.",
+            "created_at": "2026-04-01T00:00:00",
+            "order": 0
+          },
+          {
+            "id": "card_p_r2",
+            "title": "Benchmarking on larger cohorts",
+            "description": "Current fixtures use 2 samples (S1, S2). Validate confidence calibration and weighted consensus on real 1000 Genomes data.",
+            "created_at": "2026-04-01T00:00:00",
+            "order": 1
+          }
+        ],
+        "Review": [
+          {
+            "id": "card_p_rev1",
+            "title": "v2.0.0 GitHub public release",
+            "description": "DEPLOYMENT.md checklist is ready. Repo needs final review before making public.",
+            "created_at": "2026-04-01T00:00:00",
+            "order": 0
+          }
+        ],
+        "Done": [
+          {
+            "id": "card_p_d1",
+            "title": "Multi-tool integration (OptiType, ArcasHLA, SpecHLA)",
+            "description": "All three tools integrated as Nextflow DSL2 modules with container support.",
+            "created_at": "2026-04-01T00:00:00",
+            "order": 0
+          },
+          {
+            "id": "card_p_d2",
+            "title": "Flexible input support (BAM, CRAM, FASTQ)",
+            "description": "Auto-detection of input format; BAM/CRAM-to-FASTQ conversion where needed.",
+            "created_at": "2026-04-01T00:00:00",
+            "order": 1
+          },
+          {
+            "id": "card_p_d3",
+            "title": "Majority voting consensus module",
+            "description": "Confidence-weighted consensus calling across tools with abstention support.",
+            "created_at": "2026-04-01T00:00:00",
+            "order": 2
+          },
+          {
+            "id": "card_p_d4",
+            "title": "CSC Puhti HPC profile + SLURM script",
+            "description": "Full Nextflow profile for CSC Puhti; SLURM submission script with proper parameter handling fixed.",
+            "created_at": "2026-04-01T00:00:00",
+            "order": 3
+          },
+          {
+            "id": "card_p_d5",
+            "title": "Docker & Singularity container support",
+            "description": "Pre-configured container paths for CSC Puhti SIF cache; Docker profile for local runs.",
+            "created_at": "2026-04-01T00:00:00",
+            "order": 4
+          },
+          {
+            "id": "card_p_d6",
+            "title": "HLA region extraction & chr6 optimization",
+            "description": "Chromosome 6 extraction for SpecHLA; auto-detection of chr6 vs 6 naming conventions.",
+            "created_at": "2026-04-01T00:00:00",
+            "order": 5
+          },
+          {
+            "id": "card_p_d7",
+            "title": "Exon-only mode for SpecHLA (exome data)",
+            "description": "--spechla_exon_only flag implemented and documented for WES samples.",
+            "created_at": "2026-04-01T00:00:00",
+            "order": 6
+          },
+          {
+            "id": "card_p_d8",
+            "title": "Benchmarking framework with WES/WGS/RNA-seq fixtures",
+            "description": "hla_benchmark.py: per-tool accuracy, confidence calibration, Brier score, ECE. Fixtures for S1/S2 across all modalities.",
+            "created_at": "2026-04-01T00:00:00",
+            "order": 7
+          },
+          {
+            "id": "card_p_d9",
+            "title": "Per-tool per-gene per-modality weight learning",
+            "description": "Benchmark-derived weights stored as machine-readable JSON artifacts for consensus reuse.",
+            "created_at": "2026-04-01T00:00:00",
+            "order": 8
+          },
+          {
+            "id": "card_p_d10",
+            "title": "Manuscript figures (SVG) — 7 figures",
+            "description": "Accuracy comparison, per-gene gains, confidence calibration, abstention tradeoff, discordance taxonomy, confidence weights.",
+            "created_at": "2026-04-01T00:00:00",
+            "order": 9
+          },
+          {
+            "id": "card_p_d11",
+            "title": "Full documentation suite",
+            "description": "README, QUICKSTART, INSTALL_PUHTI, DEPLOYMENT checklist, CHANGELOG, PROJECT_STRUCTURE all complete.",
+            "created_at": "2026-04-01T00:00:00",
+            "order": 10
+          },
+          {
+            "id": "card_p_d12",
+            "title": "Pipeline execution reports (timeline, trace, DAG)",
+            "description": "Nextflow HTML report, timeline, trace, and DAG auto-generated on each run.",
+            "created_at": "2026-04-01T00:00:00",
+            "order": 11
+          },
+          {
+            "id": "card_p_d13",
+            "title": "Unit test suite with benchmark assertions",
+            "description": "test_hla_benchmark.py covers accuracy rates, calibration, confidence sources, resolution-aware scoring.",
+            "created_at": "2026-04-01T00:00:00",
+            "order": 12
+          }
+        ],
+        "Failed": []
+      }
+    },
+    {
+      "id": "proj_pharmaco",
+      "name": "PharmacoProfiler",
+      "created_at": "2026-04-01T00:00:00",
+      "columns": {
+        "Backlog": [],
+        "Running": [],
+        "Review": [],
+        "Done": [],
+        "Failed": []
+      }
+    }
+  ]
+}
