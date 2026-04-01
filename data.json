@@ -228,14 +228,135 @@
       }
     },
     {
-      "id": "proj_pharmaco",
-      "name": "PharmacoProfiler",
-      "created_at": "2026-04-01T00:00:00",
+      "id": "proj_deephla01",
+      "name": "DeepHLA",
+      "created_at": "2026-04-01T08:30:00.000000",
       "columns": {
-        "Backlog": [],
+        "Backlog": [
+          {
+            "id": "card_deephla03",
+            "title": "Prepare IPD-IMGT training dataset",
+            "description": "Build the training-ready dataset from the available HLA reference assets",
+            "created_at": "2026-04-01T08:30:03.000000",
+            "order": 0
+          },
+          {
+            "id": "card_deephla04",
+            "title": "Secure GPU training capacity",
+            "description": "Current notes indicate 4xA100 access is still needed before training",
+            "created_at": "2026-04-01T08:30:04.000000",
+            "order": 1
+          },
+          {
+            "id": "card_deephla05",
+            "title": "Start DeepHLA-NA seq2seq training",
+            "description": "Training is pending after data and compute are ready",
+            "created_at": "2026-04-01T08:30:05.000000",
+            "order": 2
+          },
+          {
+            "id": "card_deephla06",
+            "title": "Define evaluation and benchmarking workflow",
+            "description": "Create evaluation steps for novel allele discovery performance",
+            "created_at": "2026-04-01T08:30:06.000000",
+            "order": 3
+          },
+          {
+            "id": "card_deephla07",
+            "title": "Plan integration with HLA pipeline outputs",
+            "description": "Define how DeepHLA-NA will connect to the existing HLA typing/calibration workflow",
+            "created_at": "2026-04-01T08:30:07.000000",
+            "order": 4
+          }
+        ],
         "Running": [],
         "Review": [],
-        "Done": [],
+        "Done": [
+          {
+            "id": "card_deephla01",
+            "title": "Reference allele assets staged",
+            "description": "IMGTHLA snapshots and repaired HLA reference assets are present under deephla_assets/",
+            "created_at": "2026-04-01T08:30:01.000000",
+            "order": 0
+          },
+          {
+            "id": "card_deephla02",
+            "title": "Architecture baseline defined",
+            "description": "Workspace notes indicate DeepHLA-NA architecture is complete",
+            "created_at": "2026-04-01T08:30:02.000000",
+            "order": 1
+          }
+        ],
+        "Failed": []
+      }
+    },
+    {
+      "id": "proj_pharmapro1",
+      "name": "Pharmacoprofiler",
+      "created_at": "2026-04-01T08:31:00.000000",
+      "columns": {
+        "Backlog": [
+          {
+            "id": "card_pharma05",
+            "title": "Import frontend application source",
+            "description": "README states app/frontend is reserved but code is not yet imported",
+            "created_at": "2026-04-01T08:31:05.000000",
+            "order": 0
+          },
+          {
+            "id": "card_pharma06",
+            "title": "Import backend application source",
+            "description": "README states app/backend is reserved but code is not yet imported",
+            "created_at": "2026-04-01T08:31:06.000000",
+            "order": 1
+          },
+          {
+            "id": "card_pharma07",
+            "title": "Import prediction API implementation",
+            "description": "README states services/prediction-api is reserved for active service code import",
+            "created_at": "2026-04-01T08:31:07.000000",
+            "order": 2
+          },
+          {
+            "id": "card_pharma08",
+            "title": "Wire CI placeholders to executable checks",
+            "description": "Turn current placeholder validation jobs into real backend/frontend/service checks",
+            "created_at": "2026-04-01T08:31:08.000000",
+            "order": 3
+          }
+        ],
+        "Running": [],
+        "Review": [],
+        "Done": [
+          {
+            "id": "card_pharma01",
+            "title": "Monorepo foundation and directory layout established",
+            "description": "Repository has app, configs, data, deploy, docs, models, notebooks, packages, scripts, services, and tests structure",
+            "created_at": "2026-04-01T08:31:01.000000",
+            "order": 0
+          },
+          {
+            "id": "card_pharma02",
+            "title": "Documentation baseline prepared",
+            "description": "README and docs tree already describe architecture, datasets, operations, and research context",
+            "created_at": "2026-04-01T08:31:02.000000",
+            "order": 1
+          },
+          {
+            "id": "card_pharma03",
+            "title": "Reusable package structure created",
+            "description": "packages/data-harmonization, feature-engineering, model-training, and shared-types exist",
+            "created_at": "2026-04-01T08:31:03.000000",
+            "order": 2
+          },
+          {
+            "id": "card_pharma04",
+            "title": "Deployment and test scaffolding prepared",
+            "description": "deploy/ layout and test category folders already exist",
+            "created_at": "2026-04-01T08:31:04.000000",
+            "order": 3
+          }
+        ],
         "Failed": []
       }
     }
