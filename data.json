@@ -106,15 +106,7 @@
             "order": 13
           }
         ],
-        "Running": [
-          {
-            "id": "card_p_r2",
-            "title": "Benchmarking on larger cohorts",
-            "description": "Current fixtures use 2 samples (S1, S2). Validate confidence calibration and weighted consensus on real 1000 Genomes data.",
-            "created_at": "2026-04-01T00:00:00",
-            "order": 0
-          }
-        ],
+        "Running": [],
         "Review": [
           {
             "id": "card_p_rev1",
@@ -222,6 +214,13 @@
             "description": "Draft v1 complete (abstract, methods). Results, discussion, and figures sections in progress.",
             "created_at": "2026-04-01T00:00:00",
             "order": 13
+          },
+          {
+            "id": "card_p_r2",
+            "title": "Benchmarking on larger cohorts",
+            "description": "Current fixtures use 2 samples (S1, S2). Validate confidence calibration and weighted consensus on real 1000 Genomes data.",
+            "created_at": "2026-04-01T00:00:00",
+            "order": 14
           }
         ],
         "Failed": []
