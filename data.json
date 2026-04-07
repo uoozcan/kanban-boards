@@ -17,7 +17,7 @@
           {
             "id": "card_p_b2",
             "title": "Advanced consensus algorithms (v2.1.0)",
-            "description": "Implement beyond majority voting — weighted Bayesian consensus, tool-specific priors.",
+            "description": "Implement beyond majority voting \u2014 weighted Bayesian consensus, tool-specific priors.",
             "created_at": "2026-04-01T00:00:00",
             "order": 1
           },
@@ -108,18 +108,11 @@
         ],
         "Running": [
           {
-            "id": "card_p_r1",
-            "title": "Manuscript writing — PIHLA ensemble paper",
-            "description": "Draft v1 complete (abstract, methods). Results, discussion, and figures sections in progress.",
-            "created_at": "2026-04-01T00:00:00",
-            "order": 0
-          },
-          {
             "id": "card_p_r2",
             "title": "Benchmarking on larger cohorts",
             "description": "Current fixtures use 2 samples (S1, S2). Validate confidence calibration and weighted consensus on real 1000 Genomes data.",
             "created_at": "2026-04-01T00:00:00",
-            "order": 1
+            "order": 0
           }
         ],
         "Review": [
@@ -197,7 +190,7 @@
           },
           {
             "id": "card_p_d10",
-            "title": "Manuscript figures (SVG) — 7 figures",
+            "title": "Manuscript figures (SVG) \u2014 7 figures",
             "description": "Accuracy comparison, per-gene gains, confidence calibration, abstention tradeoff, discordance taxonomy, confidence weights.",
             "created_at": "2026-04-01T00:00:00",
             "order": 9
@@ -222,6 +215,13 @@
             "description": "test_hla_benchmark.py covers accuracy rates, calibration, confidence sources, resolution-aware scoring.",
             "created_at": "2026-04-01T00:00:00",
             "order": 12
+          },
+          {
+            "id": "card_p_r1",
+            "title": "Manuscript writing \u2014 PIHLA ensemble paper",
+            "description": "Draft v1 complete (abstract, methods). Results, discussion, and figures sections in progress.",
+            "created_at": "2026-04-01T00:00:00",
+            "order": 13
           }
         ],
         "Failed": []
@@ -295,36 +295,7 @@
       "name": "Pharmacoprofiler",
       "created_at": "2026-04-01T08:31:00.000000",
       "columns": {
-        "Backlog": [
-          {
-            "id": "card_pharma05",
-            "title": "Import frontend application source",
-            "description": "README states app/frontend is reserved but code is not yet imported",
-            "created_at": "2026-04-01T08:31:05.000000",
-            "order": 0
-          },
-          {
-            "id": "card_pharma06",
-            "title": "Import backend application source",
-            "description": "README states app/backend is reserved but code is not yet imported",
-            "created_at": "2026-04-01T08:31:06.000000",
-            "order": 1
-          },
-          {
-            "id": "card_pharma07",
-            "title": "Import prediction API implementation",
-            "description": "README states services/prediction-api is reserved for active service code import",
-            "created_at": "2026-04-01T08:31:07.000000",
-            "order": 2
-          },
-          {
-            "id": "card_pharma08",
-            "title": "Wire CI placeholders to executable checks",
-            "description": "Turn current placeholder validation jobs into real backend/frontend/service checks",
-            "created_at": "2026-04-01T08:31:08.000000",
-            "order": 3
-          }
-        ],
+        "Backlog": [],
         "Running": [],
         "Review": [],
         "Done": [
@@ -355,6 +326,34 @@
             "description": "deploy/ layout and test category folders already exist",
             "created_at": "2026-04-01T08:31:04.000000",
             "order": 3
+          },
+          {
+            "id": "card_pharma05",
+            "title": "Import frontend application source",
+            "description": "README states app/frontend is reserved but code is not yet imported",
+            "created_at": "2026-04-01T08:31:05.000000",
+            "order": 4
+          },
+          {
+            "id": "card_pharma06",
+            "title": "Import backend application source",
+            "description": "README states app/backend is reserved but code is not yet imported",
+            "created_at": "2026-04-01T08:31:06.000000",
+            "order": 5
+          },
+          {
+            "id": "card_pharma07",
+            "title": "Import prediction API implementation",
+            "description": "README states services/prediction-api is reserved for active service code import",
+            "created_at": "2026-04-01T08:31:07.000000",
+            "order": 6
+          },
+          {
+            "id": "card_pharma08",
+            "title": "Wire CI placeholders to executable checks",
+            "description": "Turn current placeholder validation jobs into real backend/frontend/service checks",
+            "created_at": "2026-04-01T08:31:08.000000",
+            "order": 7
           }
         ],
         "Failed": []
