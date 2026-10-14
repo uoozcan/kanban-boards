@@ -3,227 +3,243 @@
   "projects": [
     {
       "id": "proj_pihla",
-      "name": "PIHLA",
+      "name": "ChampHLA",
       "created_at": "2026-04-01T00:00:00",
       "columns": {
         "Backlog": [
           {
-            "id": "card_p_b1",
-            "title": "Add HLA-HD, HLA*LA, xHLA tool support (v2.1.0)",
-            "description": "Integrate additional HLA typing tools into the Nextflow pipeline alongside OptiType, ArcasHLA, SpecHLA.",
-            "created_at": "2026-04-01T00:00:00",
+            "id": "card_60b2af4c",
+            "title": "Run frozen confirmatory extension",
+            "description": "89 WES / 99 RNA-seq subject-disjoint extension via scripts/run_extension.py after the signature; reported regardless of direction.",
+            "created_at": "2026-10-14T23:18:00.352027",
             "order": 0
           },
           {
-            "id": "card_p_b2",
-            "title": "Advanced consensus algorithms (v2.1.0)",
-            "description": "Implement beyond majority voting \u2014 weighted Bayesian consensus, tool-specific priors.",
-            "created_at": "2026-04-01T00:00:00",
+            "id": "card_28148ffc",
+            "title": "Publish pipeline and paper releases with DOIs",
+            "description": "Immutable releases, Zenodo DOIs, CITATION.cff and URL checks; clean-install walk-through (PSR-022, PSR-020).",
+            "created_at": "2026-10-14T23:18:00.352027",
             "order": 1
           },
           {
-            "id": "card_p_b3",
-            "title": "Quality score integration (v2.1.0)",
-            "description": "Incorporate per-read and per-allele quality scores into consensus confidence calculation.",
-            "created_at": "2026-04-01T00:00:00",
+            "id": "card_f0506259",
+            "title": "Regenerate results from rerun + extension",
+            "description": "Registry, tables, figures and abstract numbers from the v3.5.0 rerun and extension (SR-027, PSR-023).",
+            "created_at": "2026-10-14T23:18:00.352027",
             "order": 2
           },
           {
-            "id": "card_p_b4",
-            "title": "Phasing information support (v2.1.0)",
-            "description": "Add haplotype phasing output for allele pairs across HLA genes.",
-            "created_at": "2026-04-01T00:00:00",
+            "id": "card_1d62aec6",
+            "title": "Final release gate",
+            "description": "RELEASE=1 and SUBMISSION=1 verification under Python 3.11.15 in a clean worktree (PSR-034).",
+            "created_at": "2026-10-14T23:18:00.352027",
             "order": 3
           },
           {
-            "id": "card_p_b5",
-            "title": "Interactive HTML benchmark reports (v2.1.0)",
-            "description": "Replace static SVG figures with interactive HTML dashboards for benchmarking results.",
-            "created_at": "2026-04-01T00:00:00",
+            "id": "card_ef68820b",
+            "title": "Final independent publication review",
+            "description": "Fresh session with FINAL_PUBLICATION_REVIEW_PROMPT.md once the rerun and extension are in.",
+            "created_at": "2026-10-14T23:18:00.352027",
             "order": 4
           },
           {
-            "id": "card_p_b6",
-            "title": "Database storage support (v2.1.0)",
-            "description": "Export results to SQLite or PostgreSQL for large-cohort queries.",
-            "created_at": "2026-04-01T00:00:00",
+            "id": "card_8f5c42b5",
+            "title": "Rebuild submission DOCX and Drive v4; supervisor sign-off",
+            "description": "Review drafts plus combined Drive copy with a changes-since-v3 page.",
+            "created_at": "2026-10-14T23:18:00.352027",
             "order": 5
           },
           {
-            "id": "card_p_b7",
-            "title": "Cloud deployment (AWS / Google Cloud) (v2.2.0)",
-            "description": "Nextflow config profiles for AWS Batch and Google Life Sciences.",
-            "created_at": "2026-04-01T00:00:00",
+            "id": "card_fa0e925d",
+            "title": "Submit to BMC Bioinformatics",
+            "description": "Research article.",
+            "created_at": "2026-10-14T23:18:00.352027",
             "order": 6
           },
           {
-            "id": "card_p_b8",
-            "title": "GUI interface (v2.2.0)",
-            "description": "Web-based job submission and result visualization UI.",
+            "id": "card_p_b10",
+            "title": "[Post-submission] Population allele-frequency annotation",
+            "description": "Annotate calls with IPD-IMGT/HLA population frequencies.",
             "created_at": "2026-04-01T00:00:00",
             "order": 7
           },
           {
-            "id": "card_p_b9",
-            "title": "Real-time monitoring dashboard (v2.2.0)",
-            "description": "Live pipeline progress view integrated with Nextflow trace.",
+            "id": "card_p_b7",
+            "title": "[Post-submission] Cloud deployment profiles",
+            "description": "Nextflow profiles for AWS Batch / Google Cloud.",
             "created_at": "2026-04-01T00:00:00",
             "order": 8
           },
           {
-            "id": "card_p_b10",
-            "title": "Population frequency analysis (v2.2.0)",
-            "description": "Annotate HLA calls with population-level allele frequencies from IPD-IMGT/HLA.",
+            "id": "card_p_b5",
+            "title": "[Post-submission] Interactive HTML benchmark reports",
+            "description": "Interactive dashboards for benchmark results.",
             "created_at": "2026-04-01T00:00:00",
             "order": 9
           },
           {
-            "id": "card_p_b11",
-            "title": "ML-based consensus calling (v3.0.0)",
-            "description": "Train a model on benchmark data to replace heuristic weighting with learned consensus.",
+            "id": "card_p_b14",
+            "title": "[Post-submission] Multi-sample joint calling",
+            "description": "Population-level joint HLA inference across samples.",
             "created_at": "2026-04-01T00:00:00",
             "order": 10
-          },
-          {
-            "id": "card_p_b12",
-            "title": "Novel allele detection (v3.0.0)",
-            "description": "Flag and report candidate novel HLA alleles not present in IMGT/HLA database.",
-            "created_at": "2026-04-01T00:00:00",
-            "order": 11
-          },
-          {
-            "id": "card_p_b13",
-            "title": "Clinical database integration (v3.0.0)",
-            "description": "Link HLA calls to transplant registries and pharmacogenomics databases.",
-            "created_at": "2026-04-01T00:00:00",
-            "order": 12
-          },
-          {
-            "id": "card_p_b14",
-            "title": "Multi-sample joint calling (v3.0.0)",
-            "description": "Population-level joint HLA inference across multiple samples.",
-            "created_at": "2026-04-01T00:00:00",
-            "order": 13
           }
         ],
-        "Running": [],
+        "Running": [
+          {
+            "id": "card_7bdb50b7",
+            "title": "Workflow v3.5.0: publish immutable release",
+            "description": "Quality-aware T1K parser. Tagged locally; publish the release archive (SR-004, PSR-003).",
+            "created_at": "2026-10-14T23:18:00.352027",
+            "order": 0
+          },
+          {
+            "id": "card_b46b30e3",
+            "title": "Full development rerun on v3.5.0 (Roihu)",
+            "description": "Rerun all 130 WES / 106 RNA-seq development subjects; batch manager ready 14 Oct. Becomes the primary development analysis (SR-004/005/006).",
+            "created_at": "2026-10-14T23:18:00.352027",
+            "order": 1
+          },
+          {
+            "id": "card_1c5d90bb",
+            "title": "Remaining scientific-review items",
+            "description": "Corrected-reference column beside headlines (SR-003), caller availability (SR-007), port sensitivity methods to v3.5.0 (SR-012), framing propagation (SR-025).",
+            "created_at": "2026-10-14T23:18:00.352027",
+            "order": 2
+          }
+        ],
         "Review": [
           {
-            "id": "card_p_rev1",
-            "title": "v2.0.0 GitHub public release",
-            "description": "DEPLOYMENT.md checklist is ready. Repo needs final review before making public.",
-            "created_at": "2026-04-01T00:00:00",
+            "id": "card_031e5acb",
+            "title": "Review and commit 13-14 Oct remediation work",
+            "description": "Regenerated artifacts, figures, rerun tooling and FINAL_PUBLICATION_REVIEW_PROMPT.md are uncommitted on branch submission-remediation.",
+            "created_at": "2026-10-14T23:18:00.352027",
             "order": 0
+          },
+          {
+            "id": "card_9a94a848",
+            "title": "Sign amended extension pre-registration",
+            "description": "Pin to v3.5.0; Zenodo DOI reserved. Must be signed and committed before any extension input is staged.",
+            "created_at": "2026-10-14T23:18:00.352027",
+            "order": 1
+          },
+          {
+            "id": "card_c5b2792e",
+            "title": "Author fields and declarations from co-authors",
+            "description": "Title page, contributions and declaration placeholders need co-author input and approval (PSR-006/051).",
+            "created_at": "2026-10-14T23:18:00.352027",
+            "order": 2
           }
         ],
         "Done": [
           {
             "id": "card_p_d1",
-            "title": "Multi-tool integration (OptiType, ArcasHLA, SpecHLA)",
-            "description": "All three tools integrated as Nextflow DSL2 modules with container support.",
+            "title": "Eight-caller Nextflow DSL2 pipeline",
+            "description": "OptiType, arcasHLA, HLA-HD, T1K, SpecHLA, Kourami, POLYSOLVER, Seq2HLA; BAM/CRAM/FASTQ input; Singularity/Docker; CSC Puhti and Roihu profiles; Nextflow run reports.",
             "created_at": "2026-04-01T00:00:00",
             "order": 0
           },
           {
-            "id": "card_p_d2",
-            "title": "Flexible input support (BAM, CRAM, FASTQ)",
-            "description": "Auto-detection of input format; BAM/CRAM-to-FASTQ conversion where needed.",
-            "created_at": "2026-04-01T00:00:00",
+            "id": "card_0568cc3f",
+            "title": "Workflow v3.4.0 / v3.4.1 released (private repo)",
+            "description": "HLA read rescue from alt/HLA contigs fixes WES second-haplotype loss (validated on HG00096 WES and RNA BAM routes); -profile paper reproduces the paper's consensus; container SHA-256 pinning.",
+            "created_at": "2026-10-14T23:18:00.352027",
             "order": 1
           },
           {
-            "id": "card_p_d3",
-            "title": "Majority voting consensus module",
-            "description": "Confidence-weighted consensus calling across tools with abstention support.",
+            "id": "card_p_b2",
+            "title": "16 consensus and decision methods benchmarked",
+            "description": "Majority/plurality variants, cascades, weighted, Champion-Challenger, learned selection. Equal-weight plurality adopted as the primary method (Sep 2026 amendment).",
             "created_at": "2026-04-01T00:00:00",
             "order": 2
           },
           {
-            "id": "card_p_d4",
-            "title": "CSC Puhti HPC profile + SLURM script",
-            "description": "Full Nextflow profile for CSC Puhti; SLURM submission script with proper parameter handling fixed.",
+            "id": "card_p_r2",
+            "title": "Development benchmark on 1000 Genomes subjects",
+            "description": "130 WES / 106 RNA-seq development subjects with audited reference typing, subject-level exact sign-flip tests and a registry-backed results table.",
             "created_at": "2026-04-01T00:00:00",
             "order": 3
           },
           {
-            "id": "card_p_d5",
-            "title": "Docker & Singularity container support",
-            "description": "Pre-configured container paths for CSC Puhti SIF cache; Docker profile for local runs.",
+            "id": "card_p_d8",
+            "title": "Benchmark and verification framework",
+            "description": "Checksummed freezes, result registry with [RESULT:] tags, claim audit, unit tests; local verification gate.",
             "created_at": "2026-04-01T00:00:00",
             "order": 4
           },
           {
-            "id": "card_p_d6",
-            "title": "HLA region extraction & chr6 optimization",
-            "description": "Chromosome 6 extraction for SpecHLA; auto-detection of chr6 vs 6 naming conventions.",
-            "created_at": "2026-04-01T00:00:00",
+            "id": "card_682b3658",
+            "title": "Project name restored to ChampHLA (7 Oct)",
+            "description": "Label-only change; PanelHLA kept for repo names, configs and data identifiers.",
+            "created_at": "2026-10-14T23:18:00.352027",
             "order": 5
           },
           {
-            "id": "card_p_d7",
-            "title": "Exon-only mode for SpecHLA (exome data)",
-            "description": "--spechla_exon_only flag implemented and documented for WES samples.",
-            "created_at": "2026-04-01T00:00:00",
+            "id": "card_1d8cecec",
+            "title": "Singleton-call rule decided and signed",
+            "description": "Caller-native homozygous calls count as calls (primary); abstention reported as sensitivity analysis.",
+            "created_at": "2026-10-14T23:18:00.352027",
             "order": 6
           },
           {
-            "id": "card_p_d8",
-            "title": "Benchmarking framework with WES/WGS/RNA-seq fixtures",
-            "description": "hla_benchmark.py: per-tool accuracy, confidence calibration, Brier score, ECE. Fixtures for S1/S2 across all modalities.",
-            "created_at": "2026-04-01T00:00:00",
+            "id": "card_ce579e62",
+            "title": "Pre-submission review (8 Oct, 60 findings)",
+            "description": "All findings remediated except release, author and third-party items (tracked below).",
+            "created_at": "2026-10-14T23:18:00.352027",
             "order": 7
           },
           {
-            "id": "card_p_d9",
-            "title": "Per-tool per-gene per-modality weight learning",
-            "description": "Benchmark-derived weights stored as machine-readable JSON artifacts for consensus reuse.",
-            "created_at": "2026-04-01T00:00:00",
+            "id": "card_0fe42877",
+            "title": "Scientific review of manuscript v3 (12 Oct, 27 findings)",
+            "description": "Both FATAL findings fixed; closure audit written 13 Oct; rerun-dependent items tracked below.",
+            "created_at": "2026-10-14T23:18:00.352027",
             "order": 8
           },
           {
-            "id": "card_p_d10",
-            "title": "Manuscript figures (SVG) \u2014 7 figures",
-            "description": "Accuracy comparison, per-gene gains, confidence calibration, abstention tradeoff, discordance taxonomy, confidence weights.",
+            "id": "card_p_r1",
+            "title": "Manuscript conformed to BMC Bioinformatics format",
+            "description": "Research-article structure, declarations, numbered Vancouver references, main text trimmed to ~7.4k words.",
             "created_at": "2026-04-01T00:00:00",
             "order": 9
           },
           {
-            "id": "card_p_d11",
-            "title": "Full documentation suite",
-            "description": "README, QUICKSTART, INSTALL_PUHTI, DEPLOYMENT checklist, CHANGELOG, PROJECT_STRUCTURE all complete.",
-            "created_at": "2026-04-01T00:00:00",
+            "id": "card_9bd1f6c0",
+            "title": "Supervisor review round answered; Drive v3 shared",
+            "description": "17 clarity comments answered 6 Oct; Manuscript v3 uploaded 12 Oct with a changes-since-v2 page.",
+            "created_at": "2026-10-14T23:18:00.352027",
             "order": 10
           },
           {
-            "id": "card_p_d12",
-            "title": "Pipeline execution reports (timeline, trace, DAG)",
-            "description": "Nextflow HTML report, timeline, trace, and DAG auto-generated on each run.",
-            "created_at": "2026-04-01T00:00:00",
+            "id": "card_ec887fea",
+            "title": "Exploratory clinical cohorts integrated",
+            "description": "FIMM and VenEx reported as aggregate-only exploratory applications; scope locked 13 Oct.",
+            "created_at": "2026-10-14T23:18:00.352027",
             "order": 11
-          },
-          {
-            "id": "card_p_d13",
-            "title": "Unit test suite with benchmark assertions",
-            "description": "test_hla_benchmark.py covers accuracy rates, calibration, confidence sources, resolution-aware scoring.",
-            "created_at": "2026-04-01T00:00:00",
-            "order": 12
-          },
-          {
-            "id": "card_p_r1",
-            "title": "Manuscript writing \u2014 PIHLA ensemble paper",
-            "description": "Draft v1 complete (abstract, methods). Results, discussion, and figures sections in progress.",
-            "created_at": "2026-04-01T00:00:00",
-            "order": 13
-          },
-          {
-            "id": "card_p_r2",
-            "title": "Benchmarking on larger cohorts",
-            "description": "Current fixtures use 2 samples (S1, S2). Validate confidence calibration and weighted consensus on real 1000 Genomes data.",
-            "created_at": "2026-04-01T00:00:00",
-            "order": 14
           }
         ],
-        "Failed": []
+        "Failed": [
+          {
+            "id": "card_8c86e32e",
+            "title": "BLOCKED: ethics/permit identifiers for exploratory cohorts",
+            "description": "Awaiting the data custodians; submission stays blocked until supplied and verified (PSR-002).",
+            "created_at": "2026-10-14T23:18:00.352027",
+            "order": 0
+          },
+          {
+            "id": "card_05603a1c",
+            "title": "BLOCKED: confirm repository history cleanup before going public",
+            "description": "Pipeline repo stays private until GitHub confirms the cleanup (PSR-001).",
+            "created_at": "2026-10-14T23:18:00.352027",
+            "order": 1
+          },
+          {
+            "id": "card_p_b11",
+            "title": "Learned consensus (RefFormer, MetaConsensus) set aside",
+            "description": "Did not meet prespecified gates; reported as transparent ablations, not as methods.",
+            "created_at": "2026-04-01T00:00:00",
+            "order": 2
+          }
+        ]
       }
     },
     {
@@ -294,8 +310,80 @@
       "name": "Pharmacoprofiler",
       "created_at": "2026-04-01T08:31:00.000000",
       "columns": {
-        "Backlog": [],
-        "Running": [],
+        "Backlog": [
+          {
+            "id": "card_db3feca3",
+            "title": "Point-by-point response letter to reviewers 1-3",
+            "description": "Rigor/benchmarking (R1), biological validation and positioning (R2), architecture/usability/sustainability (R3).",
+            "created_at": "2026-10-14T23:18:00.352027",
+            "order": 0
+          },
+          {
+            "id": "card_91c9c5b5",
+            "title": "Resubmit the major revision",
+            "description": "After the response letter and final manuscript are complete.",
+            "created_at": "2026-10-14T23:18:00.352027",
+            "order": 1
+          },
+          {
+            "id": "card_1266bd44",
+            "title": "Commit web dashboard into repo and deploy",
+            "description": "Move into app/frontend; keep model artifacts out of the public repo.",
+            "created_at": "2026-10-14T23:18:00.352027",
+            "order": 2
+          },
+          {
+            "id": "card_8d3050ae",
+            "title": "Verify external web stack (pharmacoprofiler.com)",
+            "description": "Keep implementation claims conservative until verified.",
+            "created_at": "2026-10-14T23:18:00.352027",
+            "order": 3
+          },
+          {
+            "id": "card_aa5d0aaa",
+            "title": "Uncertainty calibration transfer to CCLE",
+            "description": "Held-out GDSC calibration still under-covers CCLE; exploratory.",
+            "created_at": "2026-10-14T23:18:00.352027",
+            "order": 4
+          },
+          {
+            "id": "card_53859c03",
+            "title": "End-to-end harmonization pipeline packaging",
+            "description": "Rebuild the cross-resource harmonization layer from raw inputs as one scripted pipeline.",
+            "created_at": "2026-10-14T23:18:00.352027",
+            "order": 5
+          },
+          {
+            "id": "card_119a646e",
+            "title": "Upstream omics preprocessing reconstruction",
+            "description": "Recover normalization, feature-selection and imputation steps behind the 3747-feature matrix.",
+            "created_at": "2026-10-14T23:18:00.352027",
+            "order": 6
+          },
+          {
+            "id": "card_a719572f",
+            "title": "[Deferred] Third leakage-safe comparator (RF)",
+            "description": "Only if a methods-focused revision needs a heavier baseline.",
+            "created_at": "2026-10-14T23:18:00.352027",
+            "order": 7
+          }
+        ],
+        "Running": [
+          {
+            "id": "card_4ffd3b76",
+            "title": "Major-revision manuscript polishing",
+            "description": "Prose-level journal editing in submission-manuscript-draft.md; new claims go through the author draft first.",
+            "created_at": "2026-10-14T23:18:00.352027",
+            "order": 0
+          },
+          {
+            "id": "card_9090e06d",
+            "title": "Web dashboard (React/Vite)",
+            "description": "Network view of compounds, cell lines, tissues and predictions; SMILES to pIC50 via the HF prediction server; CSV/JSON/PNG export. Built 9 Oct, local only.",
+            "created_at": "2026-10-14T23:18:00.352027",
+            "order": 1
+          }
+        ],
         "Review": [],
         "Done": [
           {
@@ -353,6 +441,41 @@
             "description": "Turn current placeholder validation jobs into real backend/frontend/service checks",
             "created_at": "2026-04-01T08:31:08.000000",
             "order": 7
+          },
+          {
+            "id": "card_9aa8f510",
+            "title": "Reconstructed CCLE baseline benchmark",
+            "description": "Metrics, subgroup, tissue and potency-bin analyses packaged as manuscript evidence.",
+            "created_at": "2026-10-14T23:18:00.352027",
+            "order": 8
+          },
+          {
+            "id": "card_367b4d0c",
+            "title": "Leakage-safe ridge vs OLS benchmark (12 Apr)",
+            "description": "Completed two-model comparison across four leakage regimes; legacy RF comparator deferred.",
+            "created_at": "2026-10-14T23:18:00.352027",
+            "order": 9
+          },
+          {
+            "id": "card_915d6cfd",
+            "title": "Uncertainty and applicability analysis (13 Apr)",
+            "description": "First-pass uncertainty/applicability outputs plus OOB split-conformal calibration layer; framed as exploratory.",
+            "created_at": "2026-10-14T23:18:00.352027",
+            "order": 10
+          },
+          {
+            "id": "card_9ec9ca5a",
+            "title": "Reviewer-response matrix and manuscript drafts",
+            "description": "Issue log mapped to repository artifacts; methods rewrite spec; author and submission drafts.",
+            "created_at": "2026-10-14T23:18:00.352027",
+            "order": 11
+          },
+          {
+            "id": "card_51fdf205",
+            "title": "Prediction service baseline hardened",
+            "description": "Service baseline and Hugging Face deployment parity.",
+            "created_at": "2026-10-14T23:18:00.352027",
+            "order": 12
           }
         ],
         "Failed": []
