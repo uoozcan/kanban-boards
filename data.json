@@ -9,50 +9,50 @@
         "Backlog": [
           {
             "id": "card_60b2af4c",
-            "title": "Run frozen confirmatory extension",
-            "description": "89 WES / 99 RNA-seq subject-disjoint extension via scripts/run_extension.py after the signature; reported regardless of direction.",
+            "title": "Confirmatory extension: finish the run",
+            "description": "89 WES / 99 RNA-seq subject-disjoint extension under the amendment signed 26 Oct. Partly processed, then paused; restart is the author's call. The one-time truth join waits for the public pre-registration deposit. Reported regardless of direction.",
             "created_at": "2026-10-14T23:18:00.352027",
             "order": 0
           },
           {
-            "id": "card_28148ffc",
-            "title": "Publish pipeline and paper releases with DOIs",
-            "description": "Immutable releases, Zenodo DOIs, CITATION.cff and URL checks; clean-install walk-through (PSR-022, PSR-020).",
+            "id": "card_ec887fea",
+            "title": "Reinstate FIMM/VenEx exploratory cohorts",
+            "description": "Removed by the signed 5 Nov decision; the author asked on 23 Nov to bring them back. Needs a signed reversal record and the governance fields; the submission gate stays blocking until then (aggregate-only, exploratory).",
             "created_at": "2026-10-14T23:18:00.352027",
             "order": 1
           },
           {
             "id": "card_f0506259",
             "title": "Regenerate results from rerun + extension",
-            "description": "Registry, tables, figures and abstract numbers from the v3.5.0 rerun and extension (SR-027, PSR-023).",
+            "description": "Rerun half done 25 Oct (registry delta approved). Extension half waits for the extension run and the author's one-time join (SR-027, PSR-023).",
             "created_at": "2026-10-14T23:18:00.352027",
             "order": 2
           },
           {
-            "id": "card_1d62aec6",
-            "title": "Final release gate",
-            "description": "RELEASE=1 and SUBMISSION=1 verification under Python 3.11.15 in a clean worktree (PSR-034).",
+            "id": "card_8f5c42b5",
+            "title": "Reconcile the Google Doc with the Markdown source; supervisor sign-off",
+            "description": "The 19 Nov Google Doc has drifted from manuscript.md, which stays master. Carry over wording-only edits, log each, rebuild the DOCX, then supervisor sign-off.",
             "created_at": "2026-10-14T23:18:00.352027",
             "order": 3
           },
           {
-            "id": "card_ef68820b",
-            "title": "Final independent publication review",
-            "description": "Fresh session with FINAL_PUBLICATION_REVIEW_PROMPT.md once the rerun and extension are in.",
+            "id": "card_28148ffc",
+            "title": "Publish pipeline and paper releases with DOIs",
+            "description": "Zenodo pre-registration deposit first; then immutable releases, DOIs, CITATION.cff and URL checks; clean-install walk-through (PSR-022, PSR-020).",
             "created_at": "2026-10-14T23:18:00.352027",
             "order": 4
           },
           {
-            "id": "card_8f5c42b5",
-            "title": "Rebuild submission DOCX and Drive v4; supervisor sign-off",
-            "description": "Review drafts plus combined Drive copy with a changes-since-v3 page.",
+            "id": "card_1d62aec6",
+            "title": "Final release gate",
+            "description": "Full gate, then RELEASE=1 and SUBMISSION=1 verification under Python 3.11.15 in a clean worktree; build the submission snapshot.",
             "created_at": "2026-10-14T23:18:00.352027",
             "order": 5
           },
           {
             "id": "card_fa0e925d",
-            "title": "Submit to BMC Bioinformatics",
-            "description": "Research article.",
+            "title": "Submit to Scientific Reports",
+            "description": "Article. Target venue since the October retargeting (BMC route superseded).",
             "created_at": "2026-10-14T23:18:00.352027",
             "order": 6
           },
@@ -87,148 +87,190 @@
         ],
         "Running": [
           {
-            "id": "card_7bdb50b7",
-            "title": "Workflow v3.5.0: publish immutable release",
-            "description": "Quality-aware T1K parser. Tagged locally; publish the release archive (SR-004, PSR-003).",
-            "created_at": "2026-10-14T23:18:00.352027",
+            "id": "card_38f615b5",
+            "title": "NCI-60 exploratory application (Roihu)",
+            "description": "57 WES / 58 RNA-seq cell lines under the signed 26 Oct pre-declaration. Scratch blocker resolved 10 Nov by archiving finished lines to Allas (standing approval 11 Nov). Supplementary only, never validation.",
+            "created_at": "2026-11-23T12:56:27.095260",
             "order": 0
-          },
-          {
-            "id": "card_b46b30e3",
-            "title": "Full development rerun on v3.5.0 (Roihu)",
-            "description": "Rerun all 130 WES / 106 RNA-seq development subjects; batch manager ready 14 Oct. Becomes the primary development analysis (SR-004/005/006).",
-            "created_at": "2026-10-14T23:18:00.352027",
-            "order": 1
-          },
-          {
-            "id": "card_1c5d90bb",
-            "title": "Remaining scientific-review items",
-            "description": "Corrected-reference column beside headlines (SR-003), caller availability (SR-007), port sensitivity methods to v3.5.0 (SR-012), framing propagation (SR-025).",
-            "created_at": "2026-10-14T23:18:00.352027",
-            "order": 2
           }
         ],
         "Review": [
           {
-            "id": "card_031e5acb",
-            "title": "Review and commit 13-14 Oct remediation work",
-            "description": "Regenerated artifacts, figures, rerun tooling and FINAL_PUBLICATION_REVIEW_PROMPT.md are uncommitted on branch submission-remediation.",
-            "created_at": "2026-10-14T23:18:00.352027",
+            "id": "card_ffe6a23a",
+            "title": "Sign round 6 amendment (multi-journal review disclosures)",
+            "description": "Drafted 23 Nov: Methods disclosures applied on the cleanup branch (reverted if not signed), plus drafts for the author. After signing, run the pre-specified sensitivity analyses P1-P3 once each and register them.",
+            "created_at": "2026-11-23T12:56:27.095260",
             "order": 0
           },
           {
-            "id": "card_9a94a848",
-            "title": "Sign amended extension pre-registration",
-            "description": "Pin to v3.5.0; Zenodo DOI reserved. Must be signed and committed before any extension input is staged.",
+            "id": "card_7bdb50b7",
+            "title": "Workflow cleanup PR; decide on a 3.6.0 release",
+            "description": "Private PR #1: fail-closed paper profile, honest panel provenance, evaluated quick start, ChampHLA labels, repo tidy, parser tests. Awaiting the author's merge; smoke-test one WES and one RNA-seq sample on Roihu before tagging 3.6.0. v3.5.0 stays immutable.",
             "created_at": "2026-10-14T23:18:00.352027",
             "order": 1
           },
           {
+            "id": "card_1e628d8a",
+            "title": "Sign IHWG MHC-capture analysis plan (new public cohort)",
+            "description": "Draft written 11 Nov from the 9 Nov cohorts plan: exploratory application only, plan signed before any input is staged; nothing downloaded or run yet.",
+            "created_at": "2026-11-23T12:56:27.095260",
+            "order": 2
+          },
+          {
             "id": "card_c5b2792e",
             "title": "Author fields and declarations from co-authors",
-            "description": "Title page, contributions and declaration placeholders need co-author input and approval (PSR-006/051).",
+            "description": "Title page, contributions, AI-use statement and declaration placeholders need co-author input and approval (PSR-006/051). Author request packet drafted, not yet sent.",
             "created_at": "2026-10-14T23:18:00.352027",
-            "order": 2
+            "order": 3
           }
         ],
         "Done": [
+          {
+            "id": "card_ef68820b",
+            "title": "Independent multi-journal review (23 Nov)",
+            "description": "Eight reviewers, three verifiers, 17 merged issues. Decision: disclose, don't change; results unchanged. Cleanup plan for the workflow and paper written.",
+            "created_at": "2026-10-14T23:18:00.352027",
+            "order": 0
+          },
+          {
+            "id": "card_fe8ba2e5",
+            "title": "Journal-panel review rounds (5-6 Nov)",
+            "description": "Panel fixes applied with post hoc amendments signed for rounds 2-4; new title; public snapshot scope signed.",
+            "created_at": "2026-11-23T12:56:27.095260",
+            "order": 1
+          },
+          {
+            "id": "card_9e09ef89",
+            "title": "Paper snapshot repository public (7 Nov)",
+            "description": "ChampHLA-paper published as a snapshot-only repository; the workflow repository stays private.",
+            "created_at": "2026-11-23T12:56:27.095260",
+            "order": 2
+          },
+          {
+            "id": "card_b46b30e3",
+            "title": "Development rerun on v3.5.0 adopted (25 Oct)",
+            "description": "All 130 WES / 106 RNA-seq development subjects rerun on Roihu; corrected collection re-activated, registry delta approved by the author, prose revised; full gate passes (SR-004/005).",
+            "created_at": "2026-10-14T23:18:00.352027",
+            "order": 3
+          },
+          {
+            "id": "card_f726b109",
+            "title": "Extension amendment and NCI-60 pre-declaration signed (26 Oct)",
+            "description": "Extension pinned to v3.5.0; NCI-60 regeneration pre-declared before any run. Neither signature authorises a truth join.",
+            "created_at": "2026-11-23T12:56:27.095260",
+            "order": 4
+          },
+          {
+            "id": "card_p_r1",
+            "title": "Manuscript retargeted to Scientific Reports (v7)",
+            "description": "IMRAD structure, new title, editable equations and pseudocode, supplement guidance; v6 delivered on Drive, v7 committed 27 Oct.",
+            "created_at": "2026-04-01T00:00:00",
+            "order": 5
+          },
+          {
+            "id": "card_1c5d90bb",
+            "title": "Scientific-review items closed",
+            "description": "Corrected-reference column (SR-003), caller availability (SR-007), sensitivity methods ported to v3.5.0 (SR-012), framing propagation (SR-025).",
+            "created_at": "2026-10-14T23:18:00.352027",
+            "order": 6
+          },
+          {
+            "id": "card_031e5acb",
+            "title": "13-14 Oct remediation work committed",
+            "description": "Checkpointed 15 Oct on submission-remediation.",
+            "created_at": "2026-10-14T23:18:00.352027",
+            "order": 7
+          },
           {
             "id": "card_p_d1",
             "title": "Eight-caller Nextflow DSL2 pipeline",
             "description": "OptiType, arcasHLA, HLA-HD, T1K, SpecHLA, Kourami, POLYSOLVER, Seq2HLA; BAM/CRAM/FASTQ input; Singularity/Docker; CSC Puhti and Roihu profiles; Nextflow run reports.",
             "created_at": "2026-04-01T00:00:00",
-            "order": 0
+            "order": 8
           },
           {
             "id": "card_0568cc3f",
             "title": "Workflow v3.4.0 / v3.4.1 released (private repo)",
             "description": "HLA read rescue from alt/HLA contigs fixes WES second-haplotype loss (validated on HG00096 WES and RNA BAM routes); -profile paper reproduces the paper's consensus; container SHA-256 pinning.",
             "created_at": "2026-10-14T23:18:00.352027",
-            "order": 1
+            "order": 9
           },
           {
             "id": "card_p_b2",
             "title": "16 consensus and decision methods benchmarked",
             "description": "Majority/plurality variants, cascades, weighted, Champion-Challenger, learned selection. Equal-weight plurality adopted as the primary method (Sep 2026 amendment).",
             "created_at": "2026-04-01T00:00:00",
-            "order": 2
+            "order": 10
           },
           {
             "id": "card_p_r2",
             "title": "Development benchmark on 1000 Genomes subjects",
             "description": "130 WES / 106 RNA-seq development subjects with audited reference typing, subject-level exact sign-flip tests and a registry-backed results table.",
             "created_at": "2026-04-01T00:00:00",
-            "order": 3
+            "order": 11
           },
           {
             "id": "card_p_d8",
             "title": "Benchmark and verification framework",
             "description": "Checksummed freezes, result registry with [RESULT:] tags, claim audit, unit tests; local verification gate.",
             "created_at": "2026-04-01T00:00:00",
-            "order": 4
+            "order": 12
           },
           {
             "id": "card_682b3658",
             "title": "Project name restored to ChampHLA (7 Oct)",
             "description": "Label-only change; PanelHLA kept for repo names, configs and data identifiers.",
             "created_at": "2026-10-14T23:18:00.352027",
-            "order": 5
+            "order": 13
           },
           {
             "id": "card_1d8cecec",
             "title": "Singleton-call rule decided and signed",
             "description": "Caller-native homozygous calls count as calls (primary); abstention reported as sensitivity analysis.",
             "created_at": "2026-10-14T23:18:00.352027",
-            "order": 6
+            "order": 14
           },
           {
             "id": "card_ce579e62",
             "title": "Pre-submission review (8 Oct, 60 findings)",
             "description": "All findings remediated except release, author and third-party items (tracked below).",
             "created_at": "2026-10-14T23:18:00.352027",
-            "order": 7
+            "order": 15
           },
           {
             "id": "card_0fe42877",
             "title": "Scientific review of manuscript v3 (12 Oct, 27 findings)",
             "description": "Both FATAL findings fixed; closure audit written 13 Oct; rerun-dependent items tracked below.",
             "created_at": "2026-10-14T23:18:00.352027",
-            "order": 8
-          },
-          {
-            "id": "card_p_r1",
-            "title": "Manuscript conformed to BMC Bioinformatics format",
-            "description": "Research-article structure, declarations, numbered Vancouver references, main text trimmed to ~7.4k words.",
-            "created_at": "2026-04-01T00:00:00",
-            "order": 9
+            "order": 16
           },
           {
             "id": "card_9bd1f6c0",
             "title": "Supervisor review round answered; Drive v3 shared",
             "description": "17 clarity comments answered 6 Oct; Manuscript v3 uploaded 12 Oct with a changes-since-v2 page.",
             "created_at": "2026-10-14T23:18:00.352027",
-            "order": 10
+            "order": 17
           },
           {
-            "id": "card_ec887fea",
-            "title": "Exploratory clinical cohorts integrated",
-            "description": "FIMM and VenEx reported as aggregate-only exploratory applications; scope locked 13 Oct.",
+            "id": "card_9a94a848",
+            "title": "Amended extension pre-registration signed",
+            "description": "Signed 26 Oct, pinned to v3.5.0. Zenodo deposit tracked under releases.",
             "created_at": "2026-10-14T23:18:00.352027",
-            "order": 11
+            "order": 18
           }
         ],
         "Failed": [
           {
             "id": "card_8c86e32e",
             "title": "BLOCKED: ethics/permit identifiers for exploratory cohorts",
-            "description": "Awaiting the data custodians; submission stays blocked until supplied and verified (PSR-002).",
+            "description": "Awaiting the data custodians; required before FIMM/VenEx can return to the paper and before submission (PSR-002).",
             "created_at": "2026-10-14T23:18:00.352027",
             "order": 0
           },
           {
             "id": "card_05603a1c",
             "title": "BLOCKED: confirm repository history cleanup before going public",
-            "description": "Pipeline repo stays private until GitHub confirms the cleanup (PSR-001).",
+            "description": "Workflow repo stays private until the author completes the history check and the data-controller notice is verified (PSR-001).",
             "created_at": "2026-10-14T23:18:00.352027",
             "order": 1
           },
